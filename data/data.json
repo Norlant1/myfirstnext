@@ -1,0 +1,25 @@
+{
+    "data":[
+      {
+        "id":"1",
+        "title":"having projects with different node versions?",
+        "description":"this is a test this is a test this is a test this is a test this is a test this is a test this is a test this is a test this is a test this is a test this is a test this is a test this is a test this is a test",
+        "content":"content of blog content of blog content of blog content of blog content of blog content of blogcontent of blog content of blog content of blog content of blogcontent of blogcontent of blogcontent of blogcontent of blog",
+        "authorName":"Norlant",
+        "Date":"01-16-2023",
+        "authorImage":"../public/author.jpg",
+        "contentImage":"/public/nvm.png"
+      },
+      {
+        "id":"2",
+        "title":"when to use getStaticProps and getServerSideProps?",
+        "description":"this is a test this is a test this is a test this is a test this is a test this is a test this is a test this is a test this is a test this is a test this is a test this is a test this is a test this is a test",
+        "content":"content of blog content of blog content of blog content of blog content of blog content of blogcontent of blog content of blog content of blog content of blogcontent of blogcontent of blogcontent of blogcontent of blog",
+        "authorName":"Norlant",
+        "Date":"01-17-2023",
+        "authorImage":"/public/author.jpg",
+        "contentImage":"/public/nvm.png"
+      }
+    ]
+    
+}

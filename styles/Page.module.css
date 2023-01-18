@@ -1,0 +1,39 @@
+.Pagecontainer {
+  padding: 0 2rem;
+  background-color: #181920;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  color: white;
+ 
+}
+
+.headerButton{ 
+  opacity: 70%;
+}
+
+.headerButton:hover{
+   opacity: 100%;
+}
+
+
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding: 2em 4em 2em 4em;
+}
+
+
+.image {
+   margin-top: 2em;
+}
