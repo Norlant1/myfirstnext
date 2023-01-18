@@ -6,6 +6,7 @@ import HeaderLayout from '../../src/HeaderLayout'
 import Head from '../../src/Head'
 import Footer from '../../src/Footer'
 import Image from 'next/image'
+import Link from 'next/link'
 
 const post = ({data}) => {
 
@@ -15,7 +16,7 @@ const post = ({data}) => {
           {data.title}
        </Head>
        <header className={PageStyles.header}>
-           <a className={PageStyles.headerButton} href="/"><h3 style={{marginLeft:'2em'}}>Back home</h3></a>
+           <Link className={PageStyles.headerButton} href="/"><h3 style={{marginLeft:'2em'}}>Back home</h3></Link>
        </header>
        <main className={PageStyles.main}>
            <p>{data.content}</p>

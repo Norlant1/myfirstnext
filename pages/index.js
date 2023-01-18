@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import main from '../styles/Mainpage.module.css'
 import MainLayout from '../src/MainLayout'
 import HeaderLayout from '../src/HeaderLayout'
+import Link from 'next/link'
 
 export default function Home({data}) {
 
@@ -19,7 +20,7 @@ export default function Home({data}) {
       </HeaderLayout>  
       <MainLayout>
         {data.map((each) => {
-           return <a href={`/posts/${each.id}`} key={each.id} className={main.topic}>
+           return <Link href={`/posts/${each.id}`} key={each.id} className={main.topic}>
                     <h2 className={main.title}>{each.title}</h2>
                     <p>{each.description}</p>
                     <div className={main.author}>
@@ -29,7 +30,7 @@ export default function Home({data}) {
                           <p className={main.date}>{each.Date}</p>
                        </div>                      
                     </div>
-                 </a>
+                 </Link>
         })}
       </MainLayout>
       <footer className={styles.footer}>
